@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: 5bc01df9bd892f847afafbe6a700540c
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'mixamo.com' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Stickman_Spine2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Stickman_Spine4'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Stickman_RCollarbone'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Stickman_Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Stickman_Neck2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Jump
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Jump(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman
+      parentName: Jump(Clone)
+      position: {x: -0, y: 0, z: -0.035830498}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman_Pelvis
+      parentName: Jump(Clone)
+      position: {x: -9.313226e-10, y: 0.63135505, z: -0.05022385}
+      rotation: {x: 0.49912703, y: -0.5008716, z: -0.4991269, w: 0.5008715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman_Spine1
+      parentName: Stickman_Pelvis
+      position: {x: -0.039066277, y: -0.0029889776, z: -0.0000000074181457}
+      rotation: {x: -0.00000010430813, y: -0.000000044703484, z: -0.1487206, w: 0.9888793}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
+    - name: Stickman_Spine2
+      parentName: Stickman_Spine1
+      position: {x: -0.16275093, y: 0, z: 2.2737367e-15}
+      rotation: {x: 0.008298072, y: 0.0017282224, z: 0.14154674, w: 0.9898953}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman_Spine3
+      parentName: Stickman_Spine2
+      position: {x: -0.13864212, y: 0.000000009536743, z: 0}
+      rotation: {x: -0.008465327, y: 0.00042650272, z: 0.11338878, w: 0.9935146}
+      scale: {x: 0.99999976, y: 0.9999996, z: 1.0000001}
+    - name: Stickman_Spine4
+      parentName: Stickman_Spine3
+      position: {x: -0.14898841, y: 0, z: 9.094947e-15}
+      rotation: {x: 0.008466416, y: -0.0004080151, z: -0.115560435, w: 0.9932643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman_Ribcage
+      parentName: Stickman_Spine4
+      position: {x: -0.20076667, y: 0.0000000047683715, z: -4.5474734e-15}
+      rotation: {x: -0.0084598465, y: 0.001411438, z: -0.020516168, w: 0.9997527}
+      scale: {x: 0.9999991, y: 0.9999992, z: 0.9999999}
+    - name: Stickman_RCollarbone
+      parentName: Stickman_Ribcage
+      position: {x: 0.05757179, y: -0.050141748, z: -0.08556347}
+      rotation: {x: 0.11211272, y: -0.8345008, z: 0.074585006, w: 0.5342998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman_RUpperarm
+      parentName: Stickman_RCollarbone
+      position: {x: -0.16965532, y: 0.000000114440915, z: -0.000000076293944}
+      rotation: {x: 0.01361733, y: -0.19503793, z: -0.011298941, w: -0.9806361}
+      scale: {x: 1, y: 1.0000002, z: 1.0000007}
+    - name: Stickman_RForearm
+      parentName: Stickman_RUpperarm
+      position: {x: -0.25912085, y: -0.0000005531311, z: -0.0000025177}
+      rotation: {x: -0.08655408, y: 0.013927807, z: -0.03222419, w: 0.9956284}
+      scale: {x: 1.0000001, y: 1.0000005, z: 0.9999988}
+    - name: Stickman_RPalm
+      parentName: Stickman_RForearm
+      position: {x: -0.26712546, y: -0.0000002479553, z: -0.0000029754638}
+      rotation: {x: 0.6642701, y: 0.12205902, z: 0.046355817, w: 0.7360013}
+      scale: {x: 0.9999969, y: 1.0000039, z: 0.99999815}
+    - name: Stickman_Neck1
+      parentName: Stickman_Ribcage
+      position: {x: -0.00067878724, y: -0.0029889776, z: -0.0000000057401905}
+      rotation: {x: 0.00049397984, y: -0.00864011, z: 0.19960597, w: 0.9798381}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman_Neck2
+      parentName: Stickman_Neck1
+      position: {x: -0.03782852, y: 0, z: 0}
+      rotation: {x: 0.03178204, y: -0.020670485, z: 0.120827965, w: 0.99194926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman_Head
+      parentName: Stickman_Neck2
+      position: {x: -0.03782852, y: 0.000000019073486, z: 0}
+      rotation: {x: -0.034713235, y: 0.022540078, z: -0.3166552, w: 0.94763726}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Stickman_LCollarbone
+      parentName: Stickman_Ribcage
+      position: {x: 0.05757179, y: -0.050141748, z: 0.08556347}
+      rotation: {x: -0.11579019, y: 0.806805, z: 0.08071563, w: 0.57371014}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: Stickman_LUpperarm
+      parentName: Stickman_LCollarbone
+      position: {x: -0.16965528, y: -0.000000114440915, z: -0.00000015258789}
+      rotation: {x: 0.020505503, y: -0.14809656, z: 0.0177167, w: 0.9886016}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000007}
+    - name: Stickman_LForearm
+      parentName: Stickman_LUpperarm
+      position: {x: -0.25912097, y: 0.0000005340576, z: -0.0000025939942}
+      rotation: {x: 0.08651718, y: -0.014011156, z: -0.03211421, w: 0.995634}
+      scale: {x: 0.9999988, y: 1.0000001, z: 1.0000004}
+    - name: Stickman_LPalm
+      parentName: Stickman_LForearm
+      position: {x: -0.2671251, y: 0.00000036239624, z: -0.0000029754638}
+      rotation: {x: -0.6642695, y: -0.12205933, z: 0.046355575, w: 0.73600197}
+      scale: {x: 1.0000018, y: 0.999996, z: 1.0000019}
+    - name: Stickman_LThigh
+      parentName: Stickman_Pelvis
+      position: {x: -0.013368301, y: -0.007647491, z: 0.1398451}
+      rotation: {x: -0.09493132, y: 0.9921969, z: -0.040750295, w: 0.06980538}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Stickman_LCalf
+      parentName: Stickman_LThigh
+      position: {x: -0.2611661, y: 0.0000004863739, z: -0.00000017166137}
+      rotation: {x: -0.060325135, y: 0.0067987656, z: 0.18703891, w: 0.98047495}
+      scale: {x: 0.9999962, y: 1.0000046, z: 1.0000002}
+    - name: Stickman_LFoot
+      parentName: Stickman_LCalf
+      position: {x: -0.32434067, y: -0.000000002682209, z: 0.000000019073486}
+      rotation: {x: -0.08320134, y: 0.023218866, z: -0.6832756, w: 0.7250331}
+      scale: {x: 0.9999972, y: 1.000003, z: 1}
+    - name: Stickman_RThigh
+      parentName: Stickman_Pelvis
+      position: {x: -0.013368263, y: -0.007647491, z: -0.1398451}
+      rotation: {x: -0.094937086, y: 0.99219644, z: 0.040749013, w: -0.069805145}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.9999999}
+    - name: Stickman_RCalf
+      parentName: Stickman_RThigh
+      position: {x: -0.26116604, y: -0.00000032424927, z: -0.00000020980835}
+      rotation: {x: 0.06041289, y: -0.0067705363, z: 0.18769091, w: 0.9803452}
+      scale: {x: 1.000004, y: 0.9999967, z: 1.0000004}
+    - name: Stickman_RFoot
+      parentName: Stickman_RCalf
+      position: {x: -0.32434067, y: 0.0000000017881393, z: -0.000000019073486}
+      rotation: {x: 0.08314396, y: -0.023374336, z: -0.68381184, w: 0.72452897}
+      scale: {x: 1.0000031, y: 0.99999696, z: 1.0000004}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: 3c60a682fec61dc44bbbe43d4dfe3257
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Running (1)(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman
+      parentName: Running (1)(Clone)
+      position: {x: -0, y: 0, z: -0.035830498}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman_Pelvis
+      parentName: Running (1)(Clone)
+      position: {x: 0.0000000055879354, y: 0.63135505, z: -0.07618722}
+      rotation: {x: 0.49912703, y: -0.5008716, z: -0.4991269, w: 0.5008715}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Stickman_Spine1
+      parentName: Stickman_Pelvis
+      position: {x: -0.039066277, y: -0.0029889776, z: -0.0000000074181457}
+      rotation: {x: -0.000000074505806, y: -0.000000014901161, z: -0.14872056, w: 0.98887926}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: Stickman_Spine2
+      parentName: Stickman_Spine1
+      position: {x: -0.16275093, y: 0, z: 2.2737367e-15}
+      rotation: {x: 0.035395466, y: -0.0030798046, z: 0.1560885, w: 0.9871039}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman_Spine3
+      parentName: Stickman_Spine2
+      position: {x: -0.13864212, y: 0.000000009536743, z: 0}
+      rotation: {x: -0.03346608, y: 0.011930922, z: 0.09861365, w: 0.99449134}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: Stickman_Spine4
+      parentName: Stickman_Spine3
+      position: {x: -0.14898841, y: 0, z: 9.094947e-15}
+      rotation: {x: 0.033492126, y: -0.011857805, z: -0.100787655, w: 0.99427336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman_Ribcage
+      parentName: Stickman_Spine4
+      position: {x: -0.20076667, y: 0.0000000047683715, z: -4.5474734e-15}
+      rotation: {x: -0.034576192, y: 0.0081738625, z: -0.0071085473, w: 0.9993434}
+      scale: {x: 0.9999991, y: 0.9999993, z: 1.0000004}
+    - name: Stickman_RCollarbone
+      parentName: Stickman_Ribcage
+      position: {x: 0.05757179, y: -0.050141748, z: -0.08556347}
+      rotation: {x: 0.13516313, y: -0.7835981, z: 0.03518635, w: 0.60536504}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman_RUpperarm
+      parentName: Stickman_RCollarbone
+      position: {x: -0.16965532, y: 0.000000114440915, z: -0.000000076293944}
+      rotation: {x: -0.0013602449, y: -0.11335234, z: -0.060076974, w: -0.991736}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000007}
+    - name: Stickman_RForearm
+      parentName: Stickman_RUpperarm
+      position: {x: -0.25912085, y: -0.0000005531311, z: -0.0000025177}
+      rotation: {x: -0.086612806, y: 0.013732138, z: -0.032471515, w: 0.9956181}
+      scale: {x: 0.99999994, y: 1.0000008, z: 0.9999988}
+    - name: Stickman_RPalm
+      parentName: Stickman_RForearm
+      position: {x: -0.26712546, y: -0.0000002479553, z: -0.0000029754638}
+      rotation: {x: 0.6642701, y: 0.12205897, z: 0.046355803, w: 0.7360014}
+      scale: {x: 0.99999696, y: 1.0000037, z: 0.9999978}
+    - name: Stickman_Neck1
+      parentName: Stickman_Ribcage
+      position: {x: -0.00067878724, y: -0.0029889776, z: -0.0000000057401905}
+      rotation: {x: -0.01747297, y: 0.029588977, z: 0.07133542, w: 0.9968603}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman_Neck2
+      parentName: Stickman_Neck1
+      position: {x: -0.03782852, y: 0, z: 0}
+      rotation: {x: -0.017819954, y: 0.012732073, z: -0.0049060057, w: 0.9997481}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stickman_Head
+      parentName: Stickman_Neck2
+      position: {x: -0.03782852, y: 0.000000019073486, z: 0}
+      rotation: {x: 0.036285985, y: -0.040916704, z: -0.06673166, w: 0.9962711}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000005}
+    - name: Stickman_LCollarbone
+      parentName: Stickman_Ribcage
+      position: {x: 0.05757179, y: -0.050141748, z: 0.08556347}
+      rotation: {x: -0.11579015, y: 0.806805, z: 0.08071563, w: 0.5737101}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: Stickman_LUpperarm
+      parentName: Stickman_LCollarbone
+      position: {x: -0.16965528, y: -0.000000114440915, z: -0.00000015258789}
+      rotation: {x: 0.021840846, y: -0.1492111, z: 0.022947164, w: 0.9882978}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000002}
+    - name: Stickman_LForearm
+      parentName: Stickman_LUpperarm
+      position: {x: -0.25912097, y: 0.0000005340576, z: -0.0000025939942}
+      rotation: {x: 0.08646116, y: -0.014200818, z: -0.03185786, w: 0.9956445}
+      scale: {x: 0.9999993, y: 1.0000004, z: 1.0000008}
+    - name: Stickman_LPalm
+      parentName: Stickman_LForearm
+      position: {x: -0.2671251, y: 0.00000036239624, z: -0.0000029754638}
+      rotation: {x: -0.6642695, y: -0.12205936, z: 0.046355385, w: 0.7360019}
+      scale: {x: 1.0000021, y: 0.99999595, z: 1.000002}
+    - name: Stickman_LThigh
+      parentName: Stickman_Pelvis
+      position: {x: -0.013368301, y: -0.007647491, z: 0.1398451}
+      rotation: {x: -0.09493145, y: 0.9921969, z: -0.04075025, w: 0.069805324}
+      scale: {x: 0.9999995, y: 1, z: 0.99999976}
+    - name: Stickman_LCalf
+      parentName: Stickman_LThigh
+      position: {x: -0.2611661, y: 0.0000004863739, z: -0.00000017166137}
+      rotation: {x: -0.060325116, y: 0.0067986553, z: 0.18703908, w: 0.98047495}
+      scale: {x: 0.99999636, y: 1.0000048, z: 1.0000004}
+    - name: Stickman_LFoot
+      parentName: Stickman_LCalf
+      position: {x: -0.32434067, y: -0.000000002682209, z: 0.000000019073486}
+      rotation: {x: -0.083201386, y: 0.023218898, z: -0.6832756, w: 0.72503304}
+      scale: {x: 0.9999972, y: 1.000003, z: 1.0000001}
+    - name: Stickman_RThigh
+      parentName: Stickman_Pelvis
+      position: {x: -0.013368263, y: -0.007647491, z: -0.1398451}
+      rotation: {x: -0.09493706, y: 0.99219644, z: 0.040748924, w: -0.069805175}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Stickman_RCalf
+      parentName: Stickman_RThigh
+      position: {x: -0.26116604, y: -0.00000032424927, z: -0.00000020980835}
+      rotation: {x: 0.060412828, y: -0.006770581, z: 0.18769096, w: 0.98034513}
+      scale: {x: 1.0000042, y: 0.99999654, z: 1.0000005}
+    - name: Stickman_RFoot
+      parentName: Stickman_RCalf
+      position: {x: -0.32434067, y: 0.0000000017881393, z: -0.000000019073486}
+      rotation: {x: 0.08314389, y: -0.02337432, z: -0.68381184, w: 0.7245289}
+      scale: {x: 1.000003, y: 0.99999696, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
